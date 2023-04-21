@@ -8,7 +8,7 @@ const Homepage = () => {
   let [data, setData] = useState(null);
   let [page, setPage] = useState(1);
   let [currentSearch, setCurrentSearch] = useState("");
-  const auth = "AKpi9xyM90N8YIItrTdMHmksEd9MQj0ujqKGnjbz7afYe3qKwQxWWPz2";
+  const auth = "API KEY";
   const initialURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
   let searchURL = `https://api.pexels.com/v1/search?query=${input}&per_page=15&page=1`;
 
